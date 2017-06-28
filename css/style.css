@@ -1,1 +1,29 @@
+html {
+ 	position: relative;
+  min-height: 100%;
+}
 
+body {
+	margin-bottom: 60px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
+.navbar {
+	font-family: 'Special Elite', cursive;
+	background-color: white;
+}
+
+.navbar-default .navbar-brand {
+	color: black;
+}
+
+navbar-default {
+	background: none;
+}
