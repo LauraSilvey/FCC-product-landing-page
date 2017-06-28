@@ -20,14 +20,61 @@ footer {
 	background-color: white;
 }
 
-.navbar-default .navbar-brand{
+.navbar-default .navbar-brand {
 	color: black;
 }
 
-.navbar-default button {
-	color: black;
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
 }
 
-navbar-default {
-	background: none;
+.navbar-default .navbar-toggle {
+	background-color: white;
+	border-color: white;
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+  color: black;
+}
+
+
+
+.header-group {
+  position: relative;
+  display: inline-block;
+}
+
+.header-intro { 
+  position: absolute;    
+  height: 150%;
+  text-align: center;    
+  width: 100%;
+}
+
+.header-intro:before {
+   content: '';
+   display: inline-block;
+   height: 100%;
+   vertical-align: middle;
+}
+
+h1, h2 {
+  display: inline-block;
+  color: black; 
+  font-family: 'Raleway', sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+	font-size: 5.9vw;
+}
+
+span {
+	font-size: 3.0vw;
+}
+
