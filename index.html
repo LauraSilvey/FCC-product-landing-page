@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Product Landing Page</title>
   <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -14,7 +14,7 @@
 <body> 
   <header id="header">
     <nav class="navbar navbar-default navbar-fixed-top" id="nav-bar">
-      <div>
+      <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -24,14 +24,16 @@
           </button>
           <a class="navbar-brand" href="#">Arrowhead Cabin</a>
         </div>
+      
+        <div class="collapse navbar-collapse" id="navbar-menu">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="nav-link" href="#amenities">Amenities<span class="sr-only">(current)</span></a></li>
+            <li><a class="nav-link" href="#rates">Rates</a></li>
+            <li><a class="nav-link" href="#things-to-do">Things To Do</a></li>
+          </ul>   
+        </div>
       </div>
-      <div class="collapse navbar-collapse" id="navbar-menu">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a class="nav-link" href="#amenities">Amenities<span class="sr-only">(current)</span></a></li>
-          <li><a class="nav-link" href="#rates">Rates</a></li>
-          <li><a class="nav-link" href="#things-to-do">Things To Do</a></li>
-        </ul>   
-      </div>
+
     </nav>
     <img class="img-responsive center-block" src="https://images.unsplash.com/photo-1414497370617-1d23dd92ab2d?crop=entropy&fit=crop&fm=jpg&h=725&ixjsv=2.10&ixlib=rb-0.3.5&q=80&w=1450" id="header-img" alt="Header image">
     </header>
@@ -85,10 +87,10 @@
     
   </div> 
   <footer class="text-center spacing">Created by<strong> Laura Silvey</strong></footer> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script> -->
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!-- <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script> -->
 </html>
 

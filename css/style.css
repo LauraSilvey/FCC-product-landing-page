@@ -20,7 +20,11 @@ footer {
 	background-color: white;
 }
 
-.navbar-default .navbar-brand {
+.navbar-default .navbar-brand{
+	color: black;
+}
+
+.navbar-default button {
 	color: black;
 }
 
