@@ -92,11 +92,11 @@ header h1, h2 {
 }
 
 header h1 {
-  font-size: 5vh;
+  font-size: 40px;
 }
 
 header h2 {
-  font-size: 3vh;
+  font-size: 20px;
 }
 
 /*
@@ -105,9 +105,13 @@ header h2 {
 *
 */
 
-/*.section {
-  padding-top: 40px;
-}*/
+#things-to-do {
+  padding-bottom: 150px;
+}
+
+.section {
+  padding-top: 50px;
+}
 
 h2 {
   font-family: 'Raleway', sans-serif;
@@ -128,9 +132,9 @@ h3 {
   justify-content: space-around;
 }
 
-.video {
-  margin-bottom: 20px;
-}
+/*.video {
+  margin-bottom: 120px;
+}*/
 
 /*
 *
