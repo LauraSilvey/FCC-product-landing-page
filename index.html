@@ -23,95 +23,97 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#">Arrowhead Cabin</a>
-        </div>
-      
+        </div> <!-- navbar header div -->
         <div class="navbar-collapse collapse" id="navbar-menu" aria-expanded="false">
           <ul class="nav navbar-nav nav-pills navbar-right links">
             <li class="active"><a class="nav-link" href="#amenities">Amenities<span class="sr-only">(current)</span></a></li>
             <li><a class="nav-link" href="#rates">Rates</a></li>
             <li><a class="nav-link" href="#things-to-do">Things To Do</a></li>
           </ul>    
-        </div>
-      </div>
+        </div> <!-- navbar collapse div -->
+      </div> <!-- container-fluid div -->
     </nav>
     <div class="header-group">
       <div class="header-intro">
         <h1 class="header-title text-center">Arrowhead Cabin</h1>
         <h2 class="subtext text-center">Your home away from home in Big Bear, California</h2>
-      </div>
-      <div class="header-pic">
-        <img class="img-responsive" src="https://images.unsplash.com/photo-1414497370617-1d23dd92ab2d?crop=entropy&fit=crop&fm=jpg&h=725&ixjsv=2.10&ixlib=rb-0.3.5&q=80&w=1450" id="header-img" alt="Header image">
-      </div> 
-    </div> 
+      </div> <!-- header intro div -->
+      <div id="header-pic">
+        <img class="img-responsive center-block" src="https://images.unsplash.com/photo-1414497370617-1d23dd92ab2d?crop=entropy&fit=crop&fm=jpg&h=725&ixjsv=2.10&ixlib=rb-0.3.5&q=80&w=1450" id="header-img" alt="Header image">
+      </div> <!-- header-pic div -->
+    </div> <!-- header-group div -->
     </header>
-  <div class="container-fluid container-flex" id="main">
-   <div class="section" id="amenities">
-    <h3 class="text-center">Amenities</h3>
-      <div class="amenities-list">
-        <ul>
-          <li>Sleeps 5</li>
-          <li>2 bathrooms</li>
-          <li>Full kitchen</li>
-          <li>Gas fireplace</li>
-          <li>Cable TV</li>
-          <li>Hot tub</li>
-        </ul>
-        <ul>
-          <li>AC & Heater</li>
-          <li>Clock/CD/Radio</li>
-          <li>Smoke detectors</li>
-          <li>Coffee pot</li>
-          <li>Linens included</li>
-          <li>Wifi</li>
-        </ul>
-      </div>
-   <div class="section" id="rates">
-     <h3 class="text-center">Rates</h3>
-     <div class="row vertical-align">
-      <div class="col-sm-6" id="rate-info">
-        <p class="text-center">Two night minimum for all stays</p>
-        <p class="text-center">Monday - Thursday: $150/night</p>
-        <p class="text-center">Friday - Sunday: $185/night</p>
-      </div>
-      <div class="col-sm-6" id="book-now">
-        <div class="panel panel-default">
-        <div class="panel-body">
-          <h4 class="text-center">Book Now</h4>
-          <form  action="https://www.freecodecamp.com/email-submit" id="form">
-            <div class="row">
-              <div class="form-group col-xs-6">
-                <label class="sr-only" for="name">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Name">
-              </div>
-              <div class="form-group col-xs-6">
-                <label class="sr-only" for="email">Email address</label>
-                <input type="email" class="form-control" id="email" placeholder="Email" required>
-              </div>
-              <div class="form-group col-xs-6">
-                <label for="check-in" class="control-label" id="check-in-label">Check-in</label>
-                <input type="date" class="form-control" id="check-in" placeholder="Check-in" required>
-              </div>
-              <div class="form-group col-xs-6">
-                <label for="check-out" class="control-label" id="check-out-label">Check-out</label>
-                <input type="date" class="form-control" id="check-out" placeholder="Check-out" required>
-              </div>
-
-            <input type="submit" class="btn btn-default center-block submit-btn" id="submit"></input>
-          </form>
-        </div>
-</div>
-      </div>
-     </div>
-   </div>
+  <div class="container-fluid" id="main">
+    <div class="section" id="amenities">
+      <h3 class="text-center">Amenities</h3>
+        <div class="amenities-list">
+          <ul>
+            <li>Sleeps 5</li>
+            <li>2 bathrooms</li>
+            <li>Full kitchen</li>
+            <li>Gas fireplace</li>
+            <li>Cable TV</li>
+            <li>Hot tub</li>
+          </ul>
+          <ul>
+            <li>AC & Heater</li>
+            <li>Clock/CD/Radio</li>
+            <li>Smoke detectors</li>
+            <li>Coffee pot</li>
+            <li>Linens included</li>
+            <li>Wifi</li>
+          </ul>
+        </div> <!-- amenities-list div -->
+    </div> <!-- amenities section div -->
+    <div class="section" id="rates">
+      <h3 class="text-center">Rates</h3>
+      <div class="row vertical-align">
+        <div class="col-sm-6" id="rate-info">
+          <p class="text-center">Two night minimum for all stays</p>
+          <p class="text-center">Monday - Thursday: $150/night</p>
+          <p class="text-center">Friday - Sunday: $185/night</p>
+        </div> <!-- rate info div -->
+        <div class="col-sm-6" id="book-now">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h4 class="text-center">Book Now</h4>
+              <form  action="https://www.freecodecamp.com/email-submit" id="form">
+                <div class="row">
+                  <div class="form-group col-xs-6">
+                    <label class="sr-only" for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                  </div>
+                  <div class="form-group col-xs-6">
+                    <label class="sr-only" for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                  </div>
+                </div> <!-- row div -->
+                <div class="row">
+                  <div class="form-group col-xs-6">
+                    <label for="check-in" class="control-label" id="check-in-label">Check-in</label>
+                    <input type="date" class="form-control" id="check-in" placeholder="Check-in" required>
+                  </div>
+                  <div class="form-group col-xs-6">
+                    <label for="check-out" class="control-label" id="check-out-label">Check-out</label>
+                    <input type="date" class="form-control" id="check-out" placeholder="Check-out" required>
+                  </div>
+                </div> <!-- row div -->
+                <input type="submit" class="btn btn-default center-block submit-btn" id="submit"></input>
+              </form>
+            </div> <!-- panel body div -->
+          </div> <!-- panel div -->
+        </div> <!-- book now div -->
+      </div> <!-- row div -->
+    </div> <!-- section rates div -->
     <div section="section" id="things-to-do">
-     <h3 class="text-center">Things To Do</h3>
-     <div class="col-xs-offset-1 col-xs-10 video">
-      <div class="embed-responsive embed-responsive-16by9">
-         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bTUmVM99qow" id="video"></iframe>
-      </div>
-    </div>
-   </div>  
-  </div> 
+      <h3 class="text-center">Things To Do</h3>
+      <!-- <div class="col-xs-offset-1 col-xs-10"> -->
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item video" src="https://www.youtube.com/embed/bTUmVM99qow" id="video"></iframe>
+        </div> <!-- embed-responsive div -->
+      <!-- </div> --> <!-- col div -->
+    </div> <!-- things to do section div  -->
+  </div> <!-- container-fluid div -->
   <footer class="text-center spacing"><div>
         <a target="blank" href="https://github.com/LauraSilvey">
           <i class="fa fa-github fa-2x" aria-hidden="true"></i>
