@@ -1,3 +1,9 @@
+/*
+*
+* sticky footer
+*
+*/
+
 html {
  	position: relative;
   min-height: 100%;
@@ -15,6 +21,12 @@ footer {
   height: 60px;
 }
 
+/*
+*
+* navbar styles
+*
+*/
+
 .navbar {
 	font-family: 'Special Elite', cursive;
 	background-color: white;
@@ -22,6 +34,15 @@ footer {
 
 .navbar-default .navbar-brand {
 	color: black;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: black;
+  background-color: #EFF0D1;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: black;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -33,49 +54,145 @@ footer {
 	border-color: white;
 }
 
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #EFF0D1;
+}
+
+.links a{
+  color:black;
+  font-family: 'Special Elite', cursive;
+} 
+
 .navbar-default .navbar-toggle .icon-bar {
   color: black;
 }
 
-
+/*
+*
+* header styles
+*
+*/
 
 .header-group {
   position: relative;
-  display: inline-block;
+  margin-top: 49.5px;
 }
 
-.header-intro { 
-  position: absolute;    
-  height: 150%;
-  text-align: center;    
-  width: 100%;
+.header-intro {
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  transform: translate(-22%, -50%);
 }
 
-.header-intro:before {
-   content: '';
-   display: inline-block;
-   height: 100%;
-   vertical-align: middle;
-}
-
-h1, h2 {
-  display: inline-block;
-  color: white; 
+header h1, h2 {
   font-family: 'Raleway', sans-serif;
+  color: white;
   font-weight: 400;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+header h1 {
+  font-size: 5vh;
 }
 
-h1 {
-	font-size: 5.9vw;
+header h2 {
+  font-size: 3vh;
 }
 
-span {
-	font-size: 3.0vw;
+/*
+*
+* sections styles
+*
+*/
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 4vh;
 }
+
+h3 {
+  font-family: 'Special Elite', cursive;
+}
+
+.section p, ul>li {
+  font-family: 'Raleway', sans-serif;
+}
+
+.amenities-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+#things-to-do {
+  margin-bottom: 20px;
+}
+
+/*
+*
+* panel styles
+*
+*/
+
+.panel {
+  background-color: #B9A394;
+  color: black;
+  border-radius: 25px;
+}
+
+.form-control {
+  width: 75%;
+  height: 25px;
+  display: text-center;
+}
+
+.panel h4 {
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.panel label {
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.submit-btn {
+  background-color: #896978;
+  color: white;
+  border: none;
+}
+
+/*
+*
+* footer styles
+*
+*/
+
+footer {
+  font-size: 14px;
+  color: #5D576B;
+  background-color: #839791
+}
+
+.fa {
+  padding: 5px;
+  color: #5D576B;
+}
+
+footer p{
+  color: #5D576B;
+}
+
+
+
+
+
+
+
+
+
 
