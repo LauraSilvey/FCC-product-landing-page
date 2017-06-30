@@ -105,6 +105,10 @@ header h2 {
 *
 */
 
+/*.section {
+  padding-top: 40px;
+}*/
+
 h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
@@ -124,11 +128,10 @@ h3 {
   justify-content: space-around;
 }
 
-
-
 .video {
   margin-bottom: 20px;
 }
+
 /*
 *
 * panel styles
