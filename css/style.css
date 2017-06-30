@@ -201,7 +201,10 @@ footer p{
 
 /* TABLET */
 @media(min-width:768px) and (max-width:991px) {
-
+  .vertical-align {
+    display: flex;
+    align-items: center;
+  }
 }
 
 /* DESKTOP & LAPTOP */
