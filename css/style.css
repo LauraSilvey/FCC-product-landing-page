@@ -136,10 +136,6 @@ h3 {
   justify-content: space-around;
 }
 
-/*.video {
-  margin-bottom: 120px;
-}*/
-
 /*
 *
 * panel styles
@@ -199,8 +195,20 @@ footer p{
   color: #5D576B;
 }
 
+/*
+    Media Queries
+ */
 
+/* TABLET */
+@media(min-width:768px) and (max-width:991px) {
 
+}
+
+/* DESKTOP & LAPTOP */
+
+@media(min-width:992px) {
+
+}
 
 
 
