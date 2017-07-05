@@ -253,13 +253,24 @@ footer p{
   }
 
   header h2 {
-    font-size: 60px;
+    font-size: 65px;
   }
 
   .links a {
     font-size: 19px;
     line-height: 24px;
     letter-spacing: 0.4px;
+  }
+
+  h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+  }
+
+  .section p, ul>li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
   }
   
   .video-container {
