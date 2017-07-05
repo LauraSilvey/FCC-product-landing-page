@@ -34,6 +34,7 @@ footer {
 
 .navbar-default .navbar-brand {
 	color: black;
+  font-size: 25px;
 }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
@@ -63,8 +64,12 @@ footer {
 }
 
 .links a{
-  color:black;
-  font-family: 'Special Elite', cursive;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  font-weight: bold;
 } 
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -96,11 +101,11 @@ header h1, h2 {
 }
 
 header h1 {
-  font-size: 27px;
+  font-size: 33px;
 }
 
 header h2 {
-  font-size: 17px;
+  font-size: 20px;
 }
 
 /*
@@ -120,15 +125,22 @@ header h2 {
 h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  font-size: 4vh;
+  font-size: 17px;
+  letter-height: 22px;
 }
 
 h3 {
-  font-family: 'Special Elite', cursive;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  line-height: 30px;
+
+  font-size: 25px;
 }
 
 .section p, ul>li {
   font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+  letter-height: 22px;
 }
 
 .amenities-list {
@@ -147,12 +159,6 @@ h3 {
   color: black;
   border-radius: 25px;
 }
-/*
-.form-control {
-  width: 75%;
-  height: 25px;
-  display: text-center;
-}*/
 
 .panel h4 {
   font-size: 30px;
@@ -163,10 +169,6 @@ h3 {
   font-size: 15px;
   font-family: 'Raleway', sans-serif;
 }
-
-/*.form-control {
-  width: 100%;
-}*/
 
 .submit-btn {
   background-color: #896978;
@@ -207,11 +209,11 @@ footer p{
   }
 
   header h1 {
-    font-size: 45px;
+    font-size: 50px;
   }
 
   header h2 {
-    font-size: 35px;
+    font-size: 40px;
   }
 }
 
