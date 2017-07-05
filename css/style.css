@@ -100,11 +100,11 @@ header h1, h2 {
 }
 
 header h1 {
-  font-size: 32px;
+  font-size: 31px;
 }
 
 header h2 {
-  font-size: 19px;
+  font-size: 18px;
 }
 
 /*
@@ -124,21 +124,21 @@ header h2 {
 h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  font-size: 17px;
-  letter-height: 22px;
+  font-size: 15px;
+  letter-height: 20px;
 }
 
 h3 {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  line-height: 30px;
-  font-size: 25px;
+  line-height: 28px;
+  font-size: 23px;
 }
 
 .section p, ul>li {
   font-family: 'Raleway', sans-serif;
-  font-size: 17px;
-  letter-height: 22px;
+  font-size: 15px;
+  letter-height: 20px;
 }
 
 .amenities-list {
