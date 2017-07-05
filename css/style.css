@@ -81,6 +81,11 @@ footer {
 *
 */
 
+img {
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+}
+
 .header-group {
   position: relative;
   margin-top: 49.5px;
