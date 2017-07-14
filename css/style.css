@@ -5,12 +5,12 @@
 */
 
 html {
- 	position: relative;
+  position: relative;
   min-height: 100%;
 }
 
 body {
-	margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 footer {
@@ -28,12 +28,12 @@ footer {
 */
 
 .navbar {
-	font-family: 'Special Elite', cursive;
-	background-color: white;
+  font-family: 'Special Elite', cursive;
+  background-color: white;
 }
 
 .navbar-default .navbar-brand {
-	color: black;
+  color: black;
   font-size: 25px;
 }
 
@@ -55,8 +55,8 @@ footer {
 }
 
 .navbar-default .navbar-toggle {
-	background-color: white;
-	border-color: white;
+  background-color: white;
+  border-color: white;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
